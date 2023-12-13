@@ -1,0 +1,24 @@
+enable  : true
+title   : THE TEAM OR WHATEVER.
+members  :
+  - image       : images/team/team-member-one.jpg
+    name        : PABLO ESCOBAR
+    designation : Creative Director
+    medium      : https://www.medium.com/
+    linkedin    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+
+
+  - image       : images/team/team-member-five.jpg
+    name        : SAN ANDREAS
+    designation : Content Researcher
+    medium      : https://www.medium.com/
+    linkedin    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+
+  - image       : images/team/team-member-six.jpg
+    name        : RAMESH PAUL
+    designation : Creative Designer
+    medium      : https://www.medium.com/
+    linkedin    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/

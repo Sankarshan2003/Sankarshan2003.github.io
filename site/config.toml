@@ -1,0 +1,128 @@
+baseURL       = "/"
+languageCode  = "en-us"
+title         = "PESDT"
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About Us"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "PESDT"
+    url     = "portfolio"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Register Now"
+    url     = "contact"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  logo_footer = "images/logo-footer.png"
+  favicon_icon = "images/favicon.ico"
+  favicon_shortcut_icon = "images/favicon.png"
+  custom_stylesheets = []   # [ "scss/my_1.scss", "scss/my_2.scss" ]
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  fabform  = "https://fabform.io/f/USAg2Jl"
+
+ 
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "PES DT"
+    tagline               = "Debate is so much better than denial"
+    primary_button        = "Im runnng"
+    primary_button_url    = "portfolio"
+    secondary_button      = "out of ideas"
+    secondary_button_url  = "contact"
+
+  [params.blog]
+    read_more             = "read more"
+
+  [params.portfolio]
+    enable    = true
+    title     = "FORMER CAP"
+    subtitle  = "something about them"
+    view_project = "view project"
+    more_works = "MORE WORKS"
+    scroll_down = "scroll down"
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "PES DT 2024"
+    primary_button      = "More Info"
+    primary_button_url  = "about"
+    secondary_button    = "Register"
+    secondary_button_url = "contact"
+
+  [params.footer]
+    params.footer.qr_print = false
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "100ft Ring Road, BSK 3rd Stage, Bangalore- 560085"
+      email   = "pesdebsoc@gmail.com"
+      
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Quick Links"
+        [[params.footer.sitemap.link]]
+          name = "Register Now"
+          url  = "contact"
+        [[params.footer.sitemap.link]]
+          name = "Contact Us"
+          url  = "contact"
+
+      [params.footer.contacts]
+        title  = "Phone"
+        [[params.footer.contacts.link]]
+          name = "Aditya NM"
+          phone  = "+91 77608 42478"
+        [[params.footer.contacts.link]]
+          name = "Akanksha S"
+          phone  = "+91 73583 06454"
+        [[params.footer.contacts.link]]
+          name = "Rishika K"
+          phone  = "+91 83107 30145"
+
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "#"
+
+   
+      [params.footer.back_to_top]
+        description = "Back <br/>to top"

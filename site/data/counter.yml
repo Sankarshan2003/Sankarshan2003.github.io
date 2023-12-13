@@ -1,0 +1,14 @@
+enable : true
+heading : "THE 4th PES DEBATE TOURNAMENT"
+counter_item: 
+  - title: "Participants"
+    number: "250"
+
+  - title: "Bleh"
+    number: "100"
+
+  - title: "Cups of coffee"
+    number: "350"
+
+  - title: "Bottles of Milk"
+    number: "775"
